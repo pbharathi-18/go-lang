@@ -837,16 +837,105 @@
 // 	}
 
 // }
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	for i := 1; i <= 5; i++ {
-		if i == 3 {
-			continue
-		}
-		fmt.Println(i)
-	}
+// func main() {
+// 	for i := 1; i <= 5; i++ {
+// 		if i == 3 {
+// 			continue
+// 		}
+// 		fmt.Println(i)
+// 	}
 
-}
+// }
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var grades [5]int
+// 	fmt.Println(grades)
+// 	var fruits [3]string
+// 	fmt.Println(fruits)
+// }
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var fruits [2]string = [2]string{"apple", "orange"}
+// 	fmt.Println(fruits)
+
+// 	marks := [3]int{20, 30, 40}
+// 	fmt.Println(marks)
+
+// 	names := [...]string{"bharathi", "sravani", "priya"}
+// 	fmt.Println(names)
+// // }
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var fruits [2]string = [2]string{"apple", "orange"}
+// 	fmt.Println(len(fruits))
+// }
+
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var grades [5]int = [5]int{50, 60, 70, 80, 90}
+// 	fmt.Println(grades)
+// 	grades[1] = 100
+// 	fmt.Println(grades)
+// }
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var grades [5]int = [5]int{50, 60, 70, 80, 90}
+// 	for i := 0; i < len(grades); i++ {
+// 		fmt.Println(grades[i])
+// 	}
+// }
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var grades [5]int = [5]int{50, 60, 70, 80, 90}
+// 	for index, element := range grades {
+// 		fmt.Println(index, "=>", element)
+// 	}
+// }
+//in thes in the place of 1 is 64
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	arr := [3][2]int{{2, 4}, {4, 16}, {8, 64}}
+// 	fmt.Println(arr[2][1])
+// }
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	slice := []int{10, 20, 30}
+// 	fmt.Println(slice)
+// }
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	arr := [10]int{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+// 	slice := arr[1:8]
+// 	fmt.Println(slice)
+// }
